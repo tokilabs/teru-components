@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": ""
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -20,9 +20,42 @@
   },
   "srcDir": "components",
   "defaultPlasmicDir": "./plasmic",
-  "projects": [],
+  "projects": [
+    {
+      "projectId": "9Ez6vNhJFQ69LZL2fp9zzt",
+      "projectName": "teru-components",
+      "version": "latest",
+      "cssFilePath": "plasmic/teru_components/plasmic_teru_components.module.css",
+      "components": [
+        {
+          "id": "LQlkDGVAm0",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "9Ez6vNhJFQ69LZL2fp9zzt",
+          "renderModuleFilePath": "plasmic/teru_components/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/teru_components/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "codeComponents": [],
+      "projectApiToken": "NOz894G9w7oTrrLnVhhANT5jH84pUOHOrln3tVqPVkediQlkItNqmetcNODqZhV1dhtmDF9Pa87XxlwkXBJw"
+    }
+  ],
   "globalVariants": {
-    "variantGroups": []
+    "variantGroups": [
+      {
+        "id": "5qkJqxoojn",
+        "name": "Screen",
+        "projectId": "9Ez6vNhJFQ69LZL2fp9zzt",
+        "contextFilePath": "plasmic/teru_components/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
   },
   "nextjsConfig": {
     "pagesDir": "../pages"
