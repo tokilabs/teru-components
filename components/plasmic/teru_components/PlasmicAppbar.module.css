@@ -1,0 +1,102 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.appBar {
+  background: rgba(255, 255, 255, 1);
+  width: 414px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+  padding-right: 5px;
+  flex-shrink: 0;
+  border-radius: 15px;
+}
+.appBar > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: calc(0px - 25px);
+  width: calc(100% + 25px);
+}
+.appBar > :global(.__wab_flex-container) > *,
+.appBar > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.appBar > :global(.__wab_flex-container) > picture > img,
+.appBar
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 25px;
+}
+.arrowLeftCircle {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__fPcc9 {
+  position: absolute;
+  object-fit: cover;
+  width: 38.541px;
+  height: 38.541px;
+  color: #130f26;
+  transform: translate(-0.2709999999999999px, -0.27200000000000024px);
+  display: block;
+  top: 8px;
+  left: 13px;
+}
+.svg__onlyTrailing__fPcc9SuYsH {
+  display: none;
+}
+.nicknames {
+  width: 100%;
+  height: 57px;
+  display: block;
+  position: relative;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  align-self: center;
+  min-width: 0;
+}
+.nicknameId01 {
+  display: block;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.0125em;
+  line-height: 100%;
+  color: rgba(37, 49, 55, 1);
+  position: sticky;
+  top: 20px;
+  left: 59px;
+  z-index: 1;
+}
+.info {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__umgrF {
+  position: absolute;
+  object-fit: cover;
+  width: 38.541px;
+  height: 38.541px;
+  color: #130f26;
+  transform: translate(-0.2709999999999999px, -0.27200000000000024px);
+  display: block;
+  top: 6px;
+  left: 6px;
+}
+.svg__onlyLeading__umgrFpEiit {
+  display: none;
+}

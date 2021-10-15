@@ -1,0 +1,109 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.appBar {
+  background: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 15px;
+  padding: 0px 15px 0px 150px;
+}
+.appBar > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: calc(0px - 100px);
+  width: calc(100% + 100px);
+}
+.appBar > :global(.__wab_flex-container) > *,
+.appBar > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.appBar > :global(.__wab_flex-container) > picture > img,
+.appBar
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 100px;
+}
+.arrowLeftCircle {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg___6PYdT {
+  position: absolute;
+  object-fit: cover;
+  color: #130f26;
+  transform: scale(1.000000499999875, 1.0000004999998748)
+    rotate(90.0572957604145deg)
+    translate(0.2700000000000031px, -0.2709999999999999px);
+  width: 0px;
+  height: 0px;
+  display: block;
+  transform-origin: top left;
+  top: 6px;
+  left: 44px;
+}
+.headLine {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+}
+.headLine > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.headLine > :global(.__wab_flex-container) > *,
+.headLine > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.headLine > :global(.__wab_flex-container) > picture > img,
+.headLine
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 20px;
+}
+.h1Headline {
+  display: block;
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.0125em;
+  line-height: 100%;
+  color: rgba(37, 49, 55, 1);
+  position: relative;
+  align-self: stretch;
+}
+.settings {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__kRbXm {
+  position: absolute;
+  object-fit: cover;
+  width: 35.416px;
+  height: 39.583px;
+  color: #130f26;
+  transform: translate(0.29100000000000037px, 0.20800000000000018px);
+  display: block;
+  top: 5px;
+  left: 7px;
+}

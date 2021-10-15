@@ -1,5 +1,16 @@
 {
-  "props": [],
+  "props": [
+    {
+      "name": "UnnamedStyleToken 2",
+      "type": "color",
+      "value": "#E0E7FF",
+      "category": "color",
+      "meta": {
+        "projectId": "9Ez6vNhJFQ69LZL2fp9zzt",
+        "id": "KQrhCIv8k"
+      }
+    }
+  ],
   "global": {
     "meta": {
       "source": "plasmic.app"

@@ -39,9 +39,69 @@
           "cssFilePath": "plasmic/teru_components/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "Q4FuTUtyUw",
+          "name": "TextField",
+          "type": "managed",
+          "projectId": "9Ez6vNhJFQ69LZL2fp9zzt",
+          "renderModuleFilePath": "plasmic/teru_components/PlasmicTextField.tsx",
+          "importSpec": {
+            "modulePath": "TextField.tsx"
+          },
+          "cssFilePath": "plasmic/teru_components/PlasmicTextField.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NBlm1ynek6",
+          "name": "TextButton",
+          "type": "managed",
+          "projectId": "9Ez6vNhJFQ69LZL2fp9zzt",
+          "renderModuleFilePath": "plasmic/teru_components/PlasmicTextButton.tsx",
+          "importSpec": {
+            "modulePath": "TextButton.tsx"
+          },
+          "cssFilePath": "plasmic/teru_components/PlasmicTextButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8ONy9gxX3F",
+          "name": "Appbar",
+          "type": "managed",
+          "projectId": "9Ez6vNhJFQ69LZL2fp9zzt",
+          "renderModuleFilePath": "plasmic/teru_components/PlasmicAppbar.tsx",
+          "importSpec": {
+            "modulePath": "Appbar.tsx"
+          },
+          "cssFilePath": "plasmic/teru_components/PlasmicAppbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
-      "icons": [],
+      "icons": [
+        {
+          "id": "mBYeY6JqC_",
+          "name": "ArrowLeftCircleIcon",
+          "moduleFilePath": "plasmic/teru_components/icons/PlasmicIcon__ArrowLeftCircle.tsx"
+        },
+        {
+          "id": "aBGSp_MyC8",
+          "name": "SettingIcon",
+          "moduleFilePath": "plasmic/teru_components/icons/PlasmicIcon__Setting.tsx"
+        },
+        {
+          "id": "yn3JsO7JRf",
+          "name": "ArrowLeftCircle2Icon",
+          "moduleFilePath": "plasmic/teru_components/icons/PlasmicIcon__ArrowLeftCircle2.tsx"
+        },
+        {
+          "id": "DIcOqc7ccT",
+          "name": "InfoSquareIcon",
+          "moduleFilePath": "plasmic/teru_components/icons/PlasmicIcon__InfoSquare.tsx"
+        }
+      ],
       "images": [],
       "codeComponents": [],
       "projectApiToken": "NOz894G9w7oTrrLnVhhANT5jH84pUOHOrln3tVqPVkediQlkItNqmetcNODqZhV1dhtmDF9Pa87XxlwkXBJw"
