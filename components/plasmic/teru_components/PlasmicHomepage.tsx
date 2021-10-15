@@ -33,6 +33,9 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Appbar from "../../Appbar"; // plasmic-import: 8ONy9gxX3F/component
+import TextButton from "../../TextButton"; // plasmic-import: NBlm1ynek6/component
+import TextField from "../../TextField"; // plasmic-import: Q4FuTUtyUw/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -52,6 +55,8 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   text?: p.Flex<"div">;
+  textButton?: p.Flex<typeof TextButton>;
+  textField?: p.Flex<typeof TextField>;
 };
 
 export interface DefaultHomepageProps {
@@ -109,6 +114,24 @@ function PlasmicHomepage__RenderFunc(props: {
           >
             {"Teru Components"}
           </div>
+
+          <Appbar className={classNames("__wab_instance", sty.appbar__r1LsQ)} />
+
+          <TextButton
+            data-plasmic-name={"textButton"}
+            data-plasmic-override={overrides.textButton}
+            className={classNames("__wab_instance", sty.textButton)}
+          />
+
+          <Appbar
+            className={classNames("__wab_instance", sty.appbar___7WMdC)}
+          />
+
+          <TextField
+            data-plasmic-name={"textField"}
+            data-plasmic-override={overrides.textField}
+            className={classNames("__wab_instance", sty.textField)}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -116,8 +139,10 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "text"],
-  text: ["text"]
+  root: ["root", "text", "textButton", "textField"],
+  text: ["text"],
+  textButton: ["textButton"],
+  textField: ["textField"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -125,6 +150,8 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   text: "div";
+  textButton: typeof TextButton;
+  textField: typeof TextField;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -189,6 +216,8 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     text: makeNodeComponent("text"),
+    textButton: makeNodeComponent("textButton"),
+    textField: makeNodeComponent("textField"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

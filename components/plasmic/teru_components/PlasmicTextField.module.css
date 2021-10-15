@@ -10,6 +10,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  align-self: stretch;
 }
 .newInput > :global(.__wab_flex-container) {
   flex-direction: column;
